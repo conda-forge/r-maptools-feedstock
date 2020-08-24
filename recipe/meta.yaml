@@ -47,10 +47,11 @@ test:
 
 about:
   home: http://r-forge.r-project.org/projects/maptools/
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Set of tools for manipulating geographic data. It includes binary access to 'GSHHG' shoreline files. The package also provides interface wrappers for exchanging spatial objects with packages such as 'PBSmapping', 'spatstat', 'maps', 'RArcInfo', and others.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
