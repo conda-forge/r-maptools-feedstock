@@ -1,4 +1,4 @@
-{% set version = "1.0-1" %}
+{% set version = "1.0-2" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,7 +10,7 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/maptools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/maptools/maptools_{{ version }}.tar.gz
-  sha256: 9444ab5585fd75317a121d293662ecb5c178548147346e8e239855bfd8f0413b
+  sha256: daac6da5817cf0cff17b9e7d4a7cdc7c329574249bd9b1bafdb6c9431e1fee49
 
 build:
   merge_build_host: true  # [win]
@@ -47,10 +47,11 @@ test:
 
 about:
   home: http://r-forge.r-project.org/projects/maptools/
-  license: GPL (>= 2)
+  license: GPL-2.0-or-later
   summary: Set of tools for manipulating geographic data. It includes binary access to 'GSHHG' shoreline files. The package also provides interface wrappers for exchanging spatial objects with packages such as 'PBSmapping', 'spatstat', 'maps', 'RArcInfo', and others.
   license_family: GPL3
-  license_file: {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
+  license_file:
+    - {{ environ["PREFIX"] }}/lib/R/share/licenses/GPL-2
 
 extra:
   recipe-maintainers:
