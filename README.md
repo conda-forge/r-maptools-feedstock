@@ -3,7 +3,7 @@ About r-maptools
 
 Home: http://r-forge.r-project.org/projects/maptools/
 
-Package license: GPL (>= 2)
+Package license: GPL-2.0-or-later
 
 Feedstock license: BSD-3-Clause
 
