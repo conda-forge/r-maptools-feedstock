@@ -1,11 +1,22 @@
+About r-maptools-feedstock
+==========================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-maptools-feedstock/blob/main/LICENSE.txt)
+
 About r-maptools
-================
+----------------
 
 Home: http://r-forge.r-project.org/projects/maptools/
 
 Package license: GPL-2.0-or-later
 
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/r-maptools-feedstock/blob/main/LICENSE.txt)
+Summary: Set of tools for manipulating geographic data. It includes binary access to 'GSHHG' shoreline files. The package also provides interface wrappers for exchanging spatial objects with packages such as 'PBSmapping', 'spatstat', 'maps', 'RArcInfo', and others.
+About r-maptools
+----------------
+
+Home: http://r-forge.r-project.org/projects/maptools/
+
+Package license: GPL-2.0-or-later
 
 Summary: Set of tools for manipulating geographic data. It includes binary access to 'GSHHG' shoreline files. The package also provides interface wrappers for exchanging spatial objects with packages such as 'PBSmapping', 'spatstat', 'maps', 'RArcInfo', and others.
 
