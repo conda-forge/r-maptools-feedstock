@@ -1,4 +1,4 @@
-{% set version = "1.1-7" %}
+{% set version = "1.1-8" %}
 {% set posix = 'm2-' if win else '' %}
 {% set native = 'm2w64-' if win else '' %}
 
@@ -10,11 +10,11 @@ source:
   url:
     - {{ cran_mirror }}/src/contrib/maptools_{{ version }}.tar.gz
     - {{ cran_mirror }}/src/contrib/Archive/maptools/maptools_{{ version }}.tar.gz
-  sha256: 3b205e17dcdeddbae397fa4e4250afb68f34034105952df10d7f61a5be33a754
+  sha256: 5e8579e3f559161935f1dde622ece703eefa2a28a677ce553d7f27611e66e0f7
 
 build:
   merge_build_host: true  # [win]
-  number: 1
+  number: 0
   rpaths:
     - lib/R/lib/
     - lib/
